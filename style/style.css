@@ -13,8 +13,8 @@ body {
   min-height: 100vh;
   font-family: Roboto, sans-serif;
   font-weight: 400;
-  background: #365aba;
-  color: #ffffff;
+  background: #365ABA;
+  color: #FFFFFF;
 }
 
 img,
@@ -80,17 +80,54 @@ fieldset {
 
 .btn {
   padding: 10px 20px;
-  background: #ffffff;
+  background: #FFFFFF;
   border-radius: 15px;
   font-size: 34px;
   text-transform: capitalize;
-  color: #365aba;
+  color: #365ABA;
 }
 
-.wishlist {
-  display: none;
+.btn_castling {
+  background: #365ABA;
+  color: #FFFFFF;
 }
 
-.edit {
-  display: none;
+@media (max-width: 1700px) {
+  .container {
+    padding: 0 32px;
+  }
+
+  .btn {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 22px;
+  }
+
+  .btn {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding: 0 34px;
+  }
+}
+
+@media (max-width: 740px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .btn {
+    font-size: 20px;
+  }
+
+  .btn_castling {
+    font-size: 24px;
+  }
 }
